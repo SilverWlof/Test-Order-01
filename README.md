@@ -8,10 +8,10 @@
 * Flex box
 * Responsive layout (under 375 px)
 * A script was written for the buttons to work:
-   — "Slider" photo change
-   — "Buy in 1 click"
-   - Item count counter
-   — "Burger"/menu button in mobile version
+  * — "Slider" photo change
+  * — "Buy in 1 click"
+  * — Item count counter
+  * — "Burger"/menu button in mobile version
 * Run via virtual server (npm)
 
 **Links**
@@ -35,10 +35,10 @@ GitHub
 * Flex-box
 * Адаптивная верстка (под 375 px)
 * Написан скрипт для работы кнопок:
-  — "Слайдер" смена фотографий
-  — "Купить в 1 клик"
-  — Счечик количества предметов
-  — "Бургер"/кнопка меню в мобильной версии
+ * — "Слайдер" смена фотографий
+ * — "Купить в 1 клик"
+ * — Счечик количества предметов
+ * — "Бургер"/кнопка меню в мобильной версии
 * Запускать через виртуальный срвер (npm)
 
 **Ссылки**
