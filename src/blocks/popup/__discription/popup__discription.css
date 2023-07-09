@@ -1,0 +1,16 @@
+.popup__discription{
+	color: #303030;
+	font-family: "Montserrat";
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 200;
+	line-height: normal;
+	letter-spacing: -0.1px;
+	padding-top: 40px;
+	margin-bottom: 33px;
+	border-top: 1px solid #E6E9F0;
+}
+
+.popup__discription a {
+	color: #303030;
+}

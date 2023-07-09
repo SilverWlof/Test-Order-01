@@ -1,0 +1,13 @@
+.popup__button-close-menu{
+	position: absolute;	
+	top: -55px;
+	right: 52px;
+	background-color: transparent;
+	border: none;
+	background-image: url('../../../images/close.svg');
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+	background-position: center;
+	background-repeat: no-repeat;
+}

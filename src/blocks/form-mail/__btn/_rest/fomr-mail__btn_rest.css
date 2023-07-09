@@ -1,0 +1,14 @@
+.fomr-mail__btn_rest{
+	background-image: url('../../../../images/close-footer.svg');
+	width: 16px;
+	height: 16px;
+	background-color: transparent;
+	background-position: center;
+	border: none;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	align-self: center;
+	right: 0;
+	position: absolute;
+
+}

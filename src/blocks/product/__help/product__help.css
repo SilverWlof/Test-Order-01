@@ -1,0 +1,7 @@
+.product__help{
+	display: flex;
+	flex-direction: column;
+	border-top: 1px solid #C4C4C4;
+	padding-top: 24px;
+	margin-top: 33px;
+}

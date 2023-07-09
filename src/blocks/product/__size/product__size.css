@@ -1,0 +1,16 @@
+.product__size{
+	border: 1px solid black;
+	width: 300px;
+	height: 28px;
+	margin-right: 100%;
+	background-color: transparent;
+	margin-bottom: 12px;
+	cursor: pointer;
+}
+
+@media screen and (min-width:320px) and (max-width:1024px){
+	.product__size{
+		width: 315px;
+		height: 44px;
+	}
+}

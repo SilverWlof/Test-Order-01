@@ -1,0 +1,9 @@
+.pre-header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	height: 40px;
+	max-width: 1440px;
+	width: 100%;
+}

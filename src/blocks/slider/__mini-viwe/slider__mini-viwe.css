@@ -1,0 +1,12 @@
+.slider__mini-viwe{
+	position: absolute;
+	top: 24px;
+	left: 24px;
+	width: 70px;
+}
+
+@media screen and (min-width:320px) and (max-width:1024px){
+	.slider__mini-viwe{
+		top: 28px;
+	}
+}

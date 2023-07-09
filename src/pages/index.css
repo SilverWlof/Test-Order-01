@@ -1,0 +1,76 @@
+@import url("../vendor/reset.css");
+@import url("../vendor/fonts/fonts.css");
+
+@import url("../blocks/page/page.css");
+
+@import url("../blocks/header/header.css");
+
+@import url("../blocks/pre-header/pre-header.css");
+
+
+@import url("../blocks/pre-header/__logo/pre-header__logo.css");
+@import url("../blocks/pre-header/__menu/pre-header__menu.css");
+@import url("../blocks/pre-header/__icon/pre-header__icon.css");
+@import url("../blocks/pre-header/_viwe/pre-header_viwe_mobile.css");
+
+@import url("../blocks/main/main.css");
+
+@import url("../blocks/slider/slider.css");
+@import url("../blocks/slider/__mini-viwe/slider__mini-viwe.css");
+@import url("../blocks/slider/__mini/slider__mini.css");
+@import url("../blocks/slider/__spayed/slider__spayed.css");
+
+@import url("../blocks/product/product.css");
+
+@import url("../blocks/product/__name-reviews/product__name-reviews.css");
+@import url("../blocks/product/__name/product__name.css");
+@import url("../blocks/product/__art/product__art.css");
+@import url("../blocks/product/__reviews/product__reviews.css");
+@import url("../blocks/product/__grade/product__grade.css");
+
+@import url("../blocks/product/__price-item/product__price-item.css");
+@import url("../blocks/product/__price/_now/product__price_now.css");
+@import url("../blocks/product/__price/_old/product__price_old.css");
+@import url("../blocks/product/__price-discont/product__price-discont.css");
+
+@import url("../blocks/product/__settis/product__settis.css");
+@import url("../blocks/product/__size/product__size.css");
+@import url("../blocks/product/__link/product__link.css");
+@import url("../blocks/product/__quantity/product__quantity.css");
+@import url("../blocks/product/__quantity-add-item/product__quantity-add-item.css");
+@import url("../blocks/product/__quantity-add-favorite/product__quantity-add-favorite.css");
+
+@import url("../blocks/product/__help/product__help.css");
+@import url("../blocks/product/__help/_icon/product__help_icon.css");
+
+@import url("../blocks/counter/counter.css");
+@import url("../blocks/counter/__btn/counter__btn.css");
+@import url("../blocks/counter/__item/counter__item.css");
+
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__list/footer__list.css");
+@import url("../blocks/footer/__list/_head/footer__list_head.css");
+@import url("../blocks/footer/__list/_item/footer__list_item.css");
+
+@import url("../blocks/form-mail/form-mail.css");
+@import url("../blocks/form-mail/__title/form-mail__title.css");
+@import url("../blocks/form-mail/__title/_mobil/form-mail__title_mobil.css");
+@import url("../blocks/form-mail/__input/form-mail__input.css");
+@import url("../blocks/form-mail/__btn/form-mail__btn.css");
+@import url("../blocks/form-mail/__btn/_rest/fomr-mail__btn_rest.css");
+@import url("../blocks/form-mail/__form/form-mail__form.css");
+
+@import url("../blocks/popup/popup.css");
+@import url("../blocks/popup/__button-close/popup__button-close.css");
+@import url("../blocks/popup/__container/popup__container.css");
+@import url("../blocks/popup/__header/popup__header.css");
+@import url("../blocks/popup/__input/popup__input.css");
+@import url("../blocks/popup/__discription/popup__discription.css");
+@import url("../blocks/popup/__button-submit/popup__button-submit.css");
+
+@import url("../blocks/popup/__menu/popup__menu.css");
+@import url("../blocks/popup/__button-close-menu/popup__button-close-menu.css");
+@import url("../blocks/popup/__menu-container/popup__menu-container.css");
+@import url("../blocks/popup/__menu-item/popup__menu-item.css");
+
+@import url("../blocks/popup/_open/popup_open.css");

@@ -1,0 +1,10 @@
+.product__price-item{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 16px;
+}
+
+.product__price-item:last-child{
+	margin-bottom: 0;
+}

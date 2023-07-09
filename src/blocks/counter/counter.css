@@ -1,0 +1,10 @@
+.counter{
+	display: flex;
+	flex-direction: row;
+}
+
+@media screen and (min-width:320px) and (max-width:1024px){
+	.counter{
+		margin-right: 100%;
+	}
+}

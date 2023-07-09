@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body class="page">
+<header class="header">
+	<section class="pre-header">
+		<a href="#"><img class="pre-header__logo" src="./images/Logo.svg" alt="логотип"></a>
+		<ul class="pre-header__menu">
+			<li class="">
+				<button class="pre-header__icon pre-header_viwe_mobile" id="menu">
+					<img src="./images/menu.svg">
+				</button>
+			</li>
+			<li class="">
+				<button class="pre-header__icon">
+					<img src="./images/Cart.svg">
+				</button>
+			</li>
+			<li class="">
+				<button class="pre-header__icon">
+					<img src="./images/Favorites.svg">
+				</button>
+			</li>
+			<li class="">
+				<button class="pre-header__icon">
+					<img src="./images/Profil.svg">
+				</button>
+			</li>
+		</ul>
+	</section>
+</header>
+<main class="main">
+<section id="popup-buy-one-click" class="popup">
+  <div class="popup__container">
+  	<button class="popup__button-close"></button>
+  	<p class="popup__header">Купить в 1 клик</p>
+  	<form>
+  		<label>
+  			<input type="text" name="phone" class="popup__input" placeholder="+7 (---) --- -- --">
+  			<input type="text" name="name" class="popup__input" placeholder="Ваше имя">
+  			<p class="popup__discription">Нажимая кнопку “Отправить”, я даю согласие на обработку моих<br>персональных данных в соответствии с<br>
+  				<a href="#">Условиями конфиденциальности</a>
+  			</p>
+  			<button type="submit" id="sub" class="popup__button-submit">Отправить</button>
+  		</label>
+  	</form>
+  </div>
+</section>
+<section id="popup-menu" class="popup__menu">
+  <div class="popup__menu-container">
+  	<button class="popup__button-close-menu"></button>
+  	<ul>
+  		<li class="popup__menu-item">Постельное белье</li>
+  		<li class="popup__menu-item">Одежда для дома</li>
+  		<li class="popup__menu-item">Одежда для улицы</li>
+  		<li class="popup__menu-item">Выход</li>
+  	</ul>
+  </div>
+</section>
+<section class="slider">
+	<img class="slider__spayed" id="slider__spayed" src="./images/dress/01.jpg">
+	<div class="slider__mini-viwe">
+		<img src="./images/dress/02.jpg" class="slider__mini">
+		<img src="./images/dress/03.jpg" class="slider__mini">
+		<img src="./images/dress/04.jpg" class="slider__mini">
+		<img src="./images/dress/05.jpg" class="slider__mini">
+		<img src="./images/dress/06.jpg" class="slider__mini">
+	</div>
+</section>
+<section class="product">
+	<div class="product__name-reviews">
+		<h1 class="product__name">Пижама для девочек</h1>
+		<p class="product__art">Арт. 02765/46</p>
+		<a href="#" class="product__reviews">
+			Отзывы
+			<div class="product__grade">
+				<img src="./images/Star-fill.svg">
+				<img src="./images/Star-fill.svg">
+				<img src="./images/Star-fill.svg">
+				<img src="./images/Star-fill.svg">
+				<img src="./images/Star-empty.svg">
+			</div>
+			14 отзывов
+			<img src="./images/Arrow-right.svg">
+		</a>
+	</div>
+	<div class="product__price">
+		<div class="product__price-item">
+			<p class="product__price_now">800 &#8381;</p>
+			<p class="product__price_old">1500 &#8381;</p>
+			<img src="./images/Arrow-right.svg">
+		</div>
+		<div class="product__price-item">
+			<p class="product__price-discont">скидка -47%</p>
+			<p class="product__price-discont">скидка -20%</p>
+		</div>
+	</div>
+	<div class="product__settis">
+		<select class="product__size">
+			<option hidden>Выбрать размер</option>
+ 			<option>XS</option>
+ 			<option>S</option>
+ 			<option>M</option>
+ 			<option>L</option>
+ 			<option>XL</option>
+		</select>
+		<a class="product__link" href="#">Опеределить размер</a> 
+		<div class="product__quantity">
+			<div class="counter">
+				<button class="counter__btn" id='counter__btn_plus'>+</button>
+				<p class="counter__item">0</p>
+				<button class="counter__btn" id="counter__btn_minus" disabled>-</button>
+			</div>
+			<button class="product__quantity-add-item">Добавить в корзину</button>
+			<button class="product__quantity-add-favorite"></button>
+		</div>
+		<p id="buy-one-click" class="product__link">Купить в 1 клик</p>
+		<ul class="product__help">
+			<li class="product__link"><img class="product__help_icon" src="./images/Item-decription.svg"><a href="#" class="product__link product__link-help">Описание товара</a></li>
+			<li class="product__link"><img class="product__help_icon" src="./images/Delivery-time.svg"><a href="#" class="product__link product__link-help">Доставка и возврат</a></li>
+			<li class="product__link"><img class="product__help_icon" src="./images/Pay-method.svg"><a href="#" class="product__link product__link-help">Способы оплаты</a></li>
+		</ul>
+	</div>
+</section>
+</main>
+<footer class="footer">
+	<ul class="footer__list">
+		<li><h3 class="footer__list_head">покупателям</h3></li>
+		<li class="footer__list_item">Каталог</li>
+		<li class="footer__list_item">Акции</li>
+		<li class="footer__list_item">Бренды</li>
+	</ul>
+	<ul class="footer__list">
+		<li><h3 class="footer__list_head">о нас</h3></li>
+		<li class="footer__list_item">О компании</li>
+		<li class="footer__list_item">Новости</li>
+		<li class="footer__list_item">Команда</li>
+	</ul>
+	<form class="form-mail">
+		<p class="form-mail__title">Узнайте первыми о новинках и акциях</p>
+		<p class="form-mail__title_mobil">Узнайте первыми о<br>новинках и акциях</p>
+		<div class="form-mail__form">
+			<input type="text" name="" placeholder="Адрес электронной почты" class="form-mail__input">
+			<button class="fomr-mail__btn_rest"></button>
+		</div>
+		<button class="form-mail__btn">Подписаться</button>
+	</form>
+</footer>	
+</body>
+</html>

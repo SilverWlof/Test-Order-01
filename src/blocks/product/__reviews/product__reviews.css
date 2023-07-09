@@ -1,0 +1,12 @@
+.product__reviews{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	color: #333;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.56px;
+	text-decoration: none;
+}

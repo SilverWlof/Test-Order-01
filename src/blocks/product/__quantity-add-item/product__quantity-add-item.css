@@ -1,0 +1,22 @@
+.product__quantity-add-item{
+	margin-left: 12px;
+	border: none;
+	background-color: #333;
+	width: 203px;
+	height: 44px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.56px;
+	cursor: pointer;
+}
+
+@media screen and (min-width:320px) and (max-width:1024px){
+	.product__quantity-add-item{
+		margin-left: 0;
+		margin-top: 15px;
+	}
+}

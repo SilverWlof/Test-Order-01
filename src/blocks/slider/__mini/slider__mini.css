@@ -1,0 +1,14 @@
+.slider__mini{
+	width: 70px;
+	height: 91px;
+	margin-bottom:7px;
+	cursor: pointer;
+}
+
+@media screen and (min-width:320px) and (max-width:1024px){
+	.slider__mini{
+		width: 40px;
+		height: 52px;
+		margin-bottom:4px;
+	}
+}

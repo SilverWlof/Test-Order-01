@@ -1,0 +1,10 @@
+.form-mail__title_mobil{
+	display: none;
+}
+
+@media screen and (min-width:320px) and (max-width:1024px){
+	.form-mail__title_mobil{
+		display: block;
+		margin-bottom: 17px;
+	}
+}
