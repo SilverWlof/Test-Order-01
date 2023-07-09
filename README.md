@@ -10,7 +10,7 @@
 * A script was written for the buttons to work:
   * — "Slider" photo change
   * — "Buy in 1 click"
-  * — Item count counter
+  * —  Item count counter
   * — "Burger"/menu button in mobile version
 * Run via virtual server (npm)
 
@@ -37,7 +37,7 @@ GitHub
 * Написан скрипт для работы кнопок:
   * — "Слайдер" смена фотографий
   * — "Купить в 1 клик"
-  * — Счечик количества предметов
+  * —  Счечик количества предметов
   * — "Бургер"/кнопка меню в мобильной версии
 * Запускать через виртуальный срвер (npm)
 
