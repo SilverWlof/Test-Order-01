@@ -1,8 +1,8 @@
 # Test task for "Marketing agency Key to the client"
 
-**Review**
+## Review
 
-## Technologies used:
+**Technologies used:**
 * Clean code without frameworks
 * BEM
 * Flex box
@@ -27,10 +27,9 @@ GitHub
 
 # Тестовое задание для "Маркетинговое агентство Ключ к клиенту"
 
-**Обзор**
+##Обзор
 
-## Используемые технологии:
-* Чистый код без фреймворков
+**Используемые технологии:*** Чистый код без фреймворков
 * БЭМ
 * Flex-box
 * Адаптивная верстка (под 375 px)
